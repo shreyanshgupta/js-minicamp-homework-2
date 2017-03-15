@@ -7,9 +7,9 @@ function getBiggest(x, y) {
 }
 
 function greeting(language) {
-  if (language == 'German'){return 'Guten Tag!';}
-  else if (language == 'English'){return 'Hello!';}
-  else if (language == 'Spanish'){return 'Hola!';}
+  if (language === 'German'){return 'Guten Tag!';}
+  else if (language === 'English'){return 'Hello!';}
+  else if (language === 'Spanish'){return 'Hola!';}
   else {return 'Hello!';}
   //return a greeting for three different languages:
   //language: 'German' -> 'Guten Tag!'
@@ -19,7 +19,7 @@ function greeting(language) {
 }
 
 function isTenOrFive(num) {
-  if (num == 10 || num == 5)
+  if (num === 10 || num === 5)
     return true;
   else
     return false;
@@ -36,10 +36,10 @@ function isInRange(num) {
 }
 
 function isInteger(num) {
-  if (num == 0)
+  if (num === 0)
     return true;
   else{
-    if (Math.trunc(num) == 0)
+    if (Math.trunc(num) === 0)
       return false;
     else
       return true;
@@ -53,11 +53,11 @@ function isInteger(num) {
 }
 
 function fizzBuzz(num) {
-  if (num%3==0 && num%5==0)
+  if (num%3===0 && num%5===0)
     return 'fizzbuzz';
-  else if (num%5 == 0)
+  else if (num%5 === 0)
     return 'buzz';
-  else if (num%3==0)
+  else if (num%3===0)
     return 'fizz';
   else
     {return num;}
