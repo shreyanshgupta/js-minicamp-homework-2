@@ -1,6 +1,7 @@
 //Do not change any of the function names
 
 function getBiggest(x, y) {
+  return Math.max(x,y);
   //x and y are integers.  Return the larger integer
   //if they are the same return either one
 }
@@ -59,7 +60,7 @@ function getArrayLength(arr) {
 }
 
 function incrementByOne(arr) {
-  //arr is an array of integers  
+  //arr is an array of integers
   //increase each integer by one
   //return the array
 }
